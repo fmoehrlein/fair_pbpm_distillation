@@ -1,5 +1,14 @@
-This repository was created for the BPM 2025 submission: 
+A Human-In-The-Loop Approach for Improving Fairness in Predictive Business Process Monitoring
+---------------------------------------------------------------------------------------------  
+
+This repository contains the source code for the BPM 25 paper: 
 "A Human-In-The-Loop Approach for Improving Fairness in Predictive Business Process Monitoring"
+
+The code implements a knowledge distillation approach to enhance fairness in PBPM models, while maintaining most of their predictive accuracy.
+It transfers knowledge from a complex machine learning model to a more interpretable representation,
+enabling stakeholders to identify and mitigate unfair biases.
+The code also includes a process for fair relabeling and fine-tuning the original model to ensure only biased features are adjusted.
+
 
 TABLE OF CONTENTS
 -----------------------  
@@ -12,14 +21,16 @@ TABLE OF CONTENTS
 - Supplementary Figures
 - Supplementary Tables
 
+
 INSTALLATION
 -----------------------  
 This project requires python to be installed:
 https://www.python.org/downloads/
+The source code was implemented and tested using Python 3.12.
 
 Furthermore, this project requires several Python libraries. You can install them using the following command:  
 
-    pip install numpy pandas pm4py scikit-learn tqdm scipy matplotlib seaborn tensorflow  
+    pip install -r requirements.txt
 
 Additionally, the plots use the CMU Serif Font, which can optionally be installed as well, though not necessary:
 https://www.freefonts.io/cmu-serif-free-font/
