@@ -157,6 +157,8 @@ Supplementary figures can be found in the `img` subfolder.
 Although most informative figures are already present in the paper,
 the `img` subfolder also contains the figures for the `Hospital Billing` event log variations,
 in which only one attribute was biased.
+Keep in mind, that within the code repository, the model names differ from the paper.
+Model `F` is named `base`, model `M` is named `enriched` and `M*` is named `modified`.
 
 ![HB results 1](img/hb_-age_+gender/hb_-age_+gender-accuracy-vs-fairness.png)
 ![HB results 2](img/hb_+age_-gender/hb_+age_-gender-accuracy-vs-fairness.png)
