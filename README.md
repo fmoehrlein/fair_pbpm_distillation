@@ -26,7 +26,7 @@ INSTALLATION
 -----------------------  
 This project requires python to be installed:
 https://www.python.org/downloads/
-The source code was implemented and tested using Python 3.12.
+The source code was implemented and tested using Python 3.11.
 
 Furthermore, this project requires several Python libraries. You can install them using the following command:  
 
